@@ -1,5 +1,3 @@
-package hacoberfest;
-
 import java.util.Scanner;
 public class LinearSearch{
     
