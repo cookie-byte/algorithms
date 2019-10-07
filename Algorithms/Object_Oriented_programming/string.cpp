@@ -1,3 +1,4 @@
+//string manipulations using oopss
 #include <iostream>
 using namespace std;
 class String
