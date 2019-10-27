@@ -1,5 +1,5 @@
 #include<stdio.h>
-#define max 10
+#define max 100
 int front=-1,rear=-1;
 int que[max];
 void enque(){
