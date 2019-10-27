@@ -1,5 +1,5 @@
 #include <stdio.h>
-#define max 10
+#define max 1000
 int pt[max];
 int top=-1;
 void push(int x)
