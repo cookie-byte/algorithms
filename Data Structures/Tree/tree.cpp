@@ -13,7 +13,7 @@ struct Node{
 
 int main(){
     Node *head = new Node(10);
-    head->next = new Node(20);
+    head->next = new Node(30);
     cout<<head->data<<"->"<<head->next->data<<endl;
     return 0;
 }
