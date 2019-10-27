@@ -47,12 +47,13 @@ void Graph::DFS(int s){
 }
 
 int main(){
-    Graph g(5);
+    Graph g(6);
     g.addEdge(1, 0); 
     g.addEdge(0, 2); 
     g.addEdge(2, 1); 
     g.addEdge(0, 3); 
     g.addEdge(1, 4); 
+    g.addEdge(1, 5); 
   
     g.DFS(0);
     cout<<endl;
