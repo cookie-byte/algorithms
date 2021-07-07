@@ -1,14 +1,11 @@
 #include<iostream>
-
 using namespace std;
-
 int main(){
-  long n,i;
+  long long  int n,i;
   cin>>n;
-  long long int dp[100001];
-  dp[0]=1;
-  for(i=1;i<100001;i++){
-    dp[i] = dp[i-1]*i;
+  long long int p=1;
+  for(i=1;i<=n;i++){
+    p =p*i;
   }
-  cout<<dp[n]<<endl;
+  cout<<p<<endl;
 }
